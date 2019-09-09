@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Intensify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Elements - Intensify by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../static/assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<nav class="left">
+					<a href="#menu"><span>Menu</span></a>
+				</nav>
+				<a href="index.html" class="logo">DataLabs</a>
+				<nav class="right">
+					<a href="#" class="button alt">Log in</a>
+				</nav>
+			</header>
+
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="generic.html">Generic</a></li>
+					<li><a href="elements.html">Elements</a></li>
+				</ul>
+				<ul class="actions vertical">
+					<li><a href="#" class="button fit">Login</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h1>Python End to End Demo</h1>
+						<p>Aliquam erat volutpat nam dui </p>
+					</header>
+
+					<!-- Content -->
+						<h2 id="content">What are in this Demo?</h2>
+						<p>Demonstration of Data life cycle from generated in Apps database PostgreSql to Hadoop DataLake. Moving data using Sqoop. Accessing metadata. Processing Engine Spark & Spark SQL. Build Machine Learning using data from DataLake using Spark, sklearn and H2O. Predict Data using auto built model. </p>
+
+						<h3>Result Bar</h3>
+						<div class="12u$"> {{text | safe}} </div> </br>
+
+					<hr class="major" />
+									<h3>Python Function</h3>
+											<form action="{{url_for('success')}}" method="POST">
+												<div class="row uniform">
+													<div class="6u 12u$(medium)">
+														<input title="Your Height" placeholder="Enter your height in cm" type="text"  min="50", max="300" name="height_name" required>
+													</div>
+													<div class="6u$ 12u$(medium)">
+														<input title="Your Weight" placeholder="Enter your weight in kg" type="text" min="20", max="300" name="weight_name" required>
+													</div>
+
+													<div class="12u$">
+														<input type="submit" value="Submit" class="primary" />
+													</div>
+											</form>
+
+											<!-- Random Generate Dimension Data to DB -->
+											<form action="{{url_for('generate_random_dimension')}}" method="POST">
+												<h3>Random Generate Dimension Data to Database</h3>
+												<div class="row uniform">
+													<div class="12u$">
+														<input type="submit" value="Random Dimension" class="primary"> </input>
+													</div>
+											</form>
+
+											<!-- Random Generate Transaction Data to DB -->
+											<form action="{{url_for('generate_random_transaction')}}" method="POST">
+												<h3>Random Generate Transaction Data to Database</h3>
+												<div class="row uniform">
+													<div class="12u$">
+														<input type="submit" value="Random Transaction" class="primary"> </input>
+													</div>
+											</form>
+
+											<!-- Random Update Data Name-->
+											<form action="{{url_for('update_data_dimension')}}" method="POST">
+												<h3>Random Update Data Name</h3>
+												<div class="row uniform">
+													<div class="12u$">
+														<input type="submit" value="Update Data" class="primary"> </input>
+													</div>
+											</form>
+
+
+							</div>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>Get In Touch</h2>
+					<ul class="actions">
+						<li><span class="icon fa-phone"></span> <a href="#">(000) 000-0000</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="#">information@untitled.tld</a></li>
+						<li><span class="icon fa-map-marker"></span> 123 Somewhere Road, Nashville, TN 00000</li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a href="https://unsplash.com">Unsplash</a>.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
